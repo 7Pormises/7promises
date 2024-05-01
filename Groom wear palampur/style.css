@@ -122,3 +122,14 @@ box-shadow: 10px 10px rgba(60, 62, 62, 0.764);
         font-size: 1.3vw;
     }
 }
+@media screen and (max-width: 500px) {
+    .vendor {
+    margin: 15px;
+    margin-top: 2%;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.381);
+    border-radius: 20px;
+}
+}
