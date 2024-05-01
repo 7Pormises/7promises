@@ -27,26 +27,26 @@ searchButton.addEventListener('click', () => {
     case 'bridal makeup':
       switch (selectedCity) {
         case'Hamirpur':
-          window.open("7promises/bridalhamirpur/ndex.html");
+          window.open("bridalhamirpur/ndex.html");
           break;
         case 'palampur':
-          window.open('7promises/Bridal makeup Palampur/index.html');
+          window.open('Bridal makeup Palampur/index.html');
           break;
         case 'kangra':
-          window.open('7promises/Bridal makeup Kangra/index.html');
+          window.open('Bridal makeup Kangra/index.html');
           break;
       }
       break;
     case 'GroomWear':
       switch (selectedCity) {
         case 'Hamirpur':
-          window.open("/GROOM WEAR hamirpur/index.html");
+          window.open("GROOM WEAR hamirpur/index.html");
           break;
         case 'kangra':
-          window.open('/Groom wear Kangra/index.html');
+          window.open('Groom wear Kangra/index.html');
           break;
         case 'palampur':
-          window.open('/Groom wear palampur/index.html');
+          window.open('Groom wear palampur/index.html');
           break;
       }
       break;
