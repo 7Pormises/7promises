@@ -49,5 +49,21 @@ background: linear-gradient(72deg, rgba(64,246,149,1) 10%, rgba(65,182,215,1) 47
     </div>
     </div>
     
-</body>
+</body>   
+    <script>
+    let menu = document.querySelector('#menu-bar');
+let head = document.querySelector('.head .navbar');
+
+menu.onclick = () => {
+    head.classList.toggle('active');
+};
+
+window.onscroll = () => {
+    head.classList.remove('active');
+    if (window.scrollY > 60) {
+        document.querySelector('#menu-bar').classList.add('active');
+    } else {
+        document.querySelector('#menu-bar').classList.remove('active');
+    }
+}</script>
 </html>
