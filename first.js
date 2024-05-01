@@ -27,13 +27,13 @@ searchButton.addEventListener('click', () => {
     case 'bridal makeup':
       switch (selectedCity) {
         case'Hamirpur':
-          window.open("/bridalhamirpur/ndex.html");
+          window.open("7promises/bridalhamirpur/ndex.html");
           break;
         case 'palampur':
-          window.open('/Bridal makeup Palampur/index.html');
+          window.open('7promises/Bridal makeup Palampur/index.html');
           break;
         case 'kangra':
-          window.open('/Bridal makeup Kangra/index.html');
+          window.open('7promises/Bridal makeup Kangra/index.html');
           break;
       }
       break;
