@@ -30,7 +30,7 @@ searchButton.addEventListener('click', () => {
           window.open("bridalhamirpur/ndex.html");
           break;
         case 'palampur':
-          window.open('Bridal makeup Palampur/index.html');
+          window.open('Bridal makeup palampur/index.html');
           break;
         case 'kangra':
           window.open('Bridal makeup Kangra/index.html');
